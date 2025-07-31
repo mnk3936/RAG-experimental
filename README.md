@@ -25,11 +25,11 @@ The system is designed for flexibility, allowing you to modify the context and e
 ### Installation
 
 Clone the repository and install dependencies:
-``
+```
 git clone <YOUR_REPOSITORY_URL>
 cd <YOUR_PROJECT_FOLDER>
 pip install -r requirements.txt
-``
+```
 
 ### Configuration
 
@@ -38,14 +38,14 @@ pip install -r requirements.txt
 Set your API key as an environment variable.
 
 **On Linux/Mac:**
-``
+```
 export OPENROUTER_API_KEY=<your_key_here>
-``
+```
 
 **On Windows:**
-``
+```
 set OPENROUTER_API_KEY=<your_key_here>
-``
+```
 
 #### 2. Context Configuration
 
@@ -60,9 +60,9 @@ You may edit the `context.txt` or relevant section in the configuration file to 
 Run the main script (modify the filename as needed):
 
 
-``
+```
 python main.py
-``
+```
 
 - The system will prompt for a query and return a response from the language model, enhanced by your provided context.
 
